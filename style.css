@@ -6,7 +6,12 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+
   color: #333;
   line-height: 1.6;
   min-height: 100vh;
@@ -91,6 +96,10 @@ body {
   font-size: 16px;
   cursor: pointer;
 }
+.card button:hover {
+ background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+
+}
 
 .hr {
   width: 100%;
@@ -99,37 +108,34 @@ body {
 }
 
 .or {
-    text-align: center;
-    position: relative;
-   
+  text-align: center;
+  position: relative;
 }
 
 .or span {
-    background-color: rgb(227, 221, 221);
-    padding: 0 20px;
-    position: relative;
-    top: 13px;
-    border-radius: 15px;
-    font-weight: bold;
+  background-color: rgb(227, 221, 221);
+  padding: 0 20px;
+  position: relative;
+  top: 13px;
+  border-radius: 15px;
+  font-weight: bold;
 }
 
 .sign {
-    text-align: center;
-    margin-top: 20px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .sign a {
-    text-decoration: none;
-    color: #007bff;
-    font-weight: bold;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
 }
 
 .sign a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .sign_up {
   display: none;
 }
-
-
