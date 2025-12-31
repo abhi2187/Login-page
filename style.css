@@ -95,10 +95,21 @@ body {
   border-radius: 4px;
   font-size: 16px;
   cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 5px 7px   rgb(112, 114, 114) ;
 }
 .card button:hover {
- background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+  box-shadow: -5px -7px   rgb(132, 129, 129) ;
 
+  
+}
+
+
+.card button:active  {
+  transform: scale(0.95);
+  background-color: greenyellow;
+  color: black;
 }
 
 .hr {
